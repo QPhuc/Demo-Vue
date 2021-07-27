@@ -1,21 +1,23 @@
 <template>
-  <PostList />
+  <!-- <PostList /> -->
   <!-- <CreatePost /> -->
+  <TemplateRef />
 </template>
 
 <script lang="ts">
 import { Options, Vue } from 'vue-class-component';
 import CreatePost from './components/CreatePost.vue';
 import PostList from './components/PostList.vue';
+import TemplateRef from './components/TemplateRef.vue';
 
-@Options({
-  components: {
-    PostList,
-    CreatePost
-    
+export default {
+  name: 'App',
+    components: {
+    // PostList,
+    // CreatePost,
+    TemplateRef
   },
-})
-export default class App extends Vue {}
+}
 </script>
 
 <style>
