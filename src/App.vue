@@ -1,6 +1,6 @@
 <template>
   <PostList />
-  <CreatePost />
+  <!-- <CreatePost /> -->
 </template>
 
 <script lang="ts">
