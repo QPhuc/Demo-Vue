@@ -1,12 +1,17 @@
 <template>
-
+  <PostList />
+  <CreatePost />
 </template>
 
 <script lang="ts">
 import { Options, Vue } from 'vue-class-component';
+import CreatePost from './components/CreatePost.vue';
+import PostList from './components/PostList.vue';
 
 @Options({
   components: {
+    PostList,
+    CreatePost
     
   },
 })
