@@ -1,7 +1,9 @@
 <template>
   <!-- <PostList /> -->
   <!-- <CreatePost /> -->
-  <TemplateRef />
+  <!-- <TemplateRef /> -->
+  <click-counter></click-counter>
+  <hover-counter></hover-counter>
 </template>
 
 <script lang="ts">
@@ -9,13 +11,17 @@ import { Options, Vue } from 'vue-class-component';
 import CreatePost from './components/CreatePost.vue';
 import PostList from './components/PostList.vue';
 import TemplateRef from './components/TemplateRef.vue';
+import ClickCounter from './components/ClickCounter.vue';
+import HoverCounter from './components/HoverCounter.vue';
 
 export default {
   name: 'App',
     components: {
     // PostList,
     // CreatePost,
-    TemplateRef
+    // TemplateRef,
+    ClickCounter,
+    HoverCounter
   },
 }
 </script>
