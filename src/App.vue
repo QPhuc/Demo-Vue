@@ -7,7 +7,8 @@
   <!-- <demo-one></demo-one> -->
   <!-- <demo-two></demo-two> -->
   <!-- <methods></methods> -->
-  <VModel />
+  <!-- <VModel /> -->
+  <Computed />
 </template>
 
 <script lang="ts">
@@ -19,6 +20,7 @@ import DemoOne from './components/DemoOne.vue';
 import DemoTwo from './components/DemoTwo.vue';
 import Methods from './components/Methods.vue';
 import VModel from './components/VModel.vue';
+import Computed from './components/Computed.vue';
 
 // import ClickCounter from './components/ClickCounter.vue';
 // import HoverCounter from './components/HoverCounter.vue';
@@ -34,7 +36,8 @@ export default {
     // DemoOne
     // DemoTwo
     // Methods
-    VModel
+    // VModel
+    Computed
 
   },
 }
