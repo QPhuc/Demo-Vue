@@ -5,7 +5,8 @@
   <!-- <click-counter></click-counter> -->
   <!-- <hover-counter></hover-counter> -->
   <!-- <demo-one></demo-one> -->
-  <demo-two></demo-two>
+  <!-- <demo-two></demo-two> -->
+  <methods></methods>
 </template>
 
 <script lang="ts">
@@ -15,6 +16,8 @@ import PostList from './components/PostList.vue';
 import TemplateRef from './components/TemplateRef.vue';
 import DemoOne from './components/DemoOne.vue';
 import DemoTwo from './components/DemoTwo.vue';
+import Methods from './components/Methods.vue';
+
 // import ClickCounter from './components/ClickCounter.vue';
 // import HoverCounter from './components/HoverCounter.vue';
 
@@ -27,7 +30,8 @@ export default {
     // ClickCounter,
     // HoverCounter,
     // DemoOne
-    DemoTwo
+    // DemoTwo
+    Methods
 
   },
 }
