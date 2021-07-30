@@ -9,7 +9,8 @@
   <!-- <methods></methods> -->
   <!-- <VModel /> -->
   <!-- <Computed /> -->
-  <Watch />
+  <!-- <Watch /> -->
+  <ProvideInject />
 </template>
 
 <script lang="ts">
@@ -23,6 +24,7 @@ import Methods from './components/Methods.vue';
 import VModel from './components/VModel.vue';
 import Computed from './components/Computed.vue';
 import Watch from './components/Watch.vue';
+import ProvideInject from './components/ProvideInject.vue';
 
 // import ClickCounter from './components/ClickCounter.vue';
 // import HoverCounter from './components/HoverCounter.vue';
@@ -40,7 +42,8 @@ export default {
     // Methods
     // VModel
     // Computed
-    Watch
+    // Watch
+    ProvideInject
 
   },
 }
