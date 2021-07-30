@@ -1,6 +1,6 @@
 <template>
     <div>
-
+        <h2>Child Component C</h2>
     </div>
 </template>
 
