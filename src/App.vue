@@ -8,7 +8,8 @@
   <!-- <demo-two></demo-two> -->
   <!-- <methods></methods> -->
   <!-- <VModel /> -->
-  <Computed />
+  <!-- <Computed /> -->
+  <Watch />
 </template>
 
 <script lang="ts">
@@ -21,6 +22,7 @@ import DemoTwo from './components/DemoTwo.vue';
 import Methods from './components/Methods.vue';
 import VModel from './components/VModel.vue';
 import Computed from './components/Computed.vue';
+import Watch from './components/Watch.vue';
 
 // import ClickCounter from './components/ClickCounter.vue';
 // import HoverCounter from './components/HoverCounter.vue';
@@ -37,7 +39,8 @@ export default {
     // DemoTwo
     // Methods
     // VModel
-    Computed
+    // Computed
+    Watch
 
   },
 }
