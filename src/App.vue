@@ -11,7 +11,8 @@
   <!-- <Computed /> -->
   <!-- <Watch /> -->
   <!-- <ProvideInject /> -->
-  <TemplateRefComposition />
+  <!-- <TemplateRefComposition /> -->
+  <Person />
 </template>
 
 <script lang="ts">
@@ -27,6 +28,7 @@ import Computed from './components/Computed.vue';
 import Watch from './components/Watch.vue';
 import ProvideInject from './components/ProvideInject.vue';
 import TemplateRefComposition from './components/TemplateRefComposition.vue';
+import Person from './components/Person.vue';
 
 // import ClickCounter from './components/ClickCounter.vue';
 // import HoverCounter from './components/HoverCounter.vue';
@@ -46,7 +48,8 @@ export default {
     // Computed
     // Watch
     // ProvideInject
-    TemplateRefComposition
+    // TemplateRefComposition
+    Person
 
   },
 }
