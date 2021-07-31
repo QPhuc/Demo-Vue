@@ -8,7 +8,8 @@
 
 <script>
     import { ref } from 'vue';
-    import { PersonGreeting } from './PersonGreeting.vue'
+    import PersonGreeting from './PersonGreeting.vue'
+
     export default {
         name: 'Person',
         components: {

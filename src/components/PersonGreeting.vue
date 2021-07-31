@@ -1,13 +1,28 @@
 <template>
     <div>
-        <h2>Hello {{ firstName }}  {{ lastName }}</h2>
+        <h2>Hello {{ fullName }}</h2>
     </div>
 </template>
 
 <script>
+    import { computed } from 'vue'
     export default {
         name: 'PersonGreeting',
+        setup(props) {
+            const fullName = computed(() => {
+                return `${props.firstName} ${props.lastName}`
+            })
+
+            return {
+                fullName
+            }
+        },
         props: ['firstName', 'lastName'],
+        // computed: {
+        //     fullName() {
+        //         return `${this.firstName} ${this.lastName}`
+        //     }
+        // }
     }
 </script>
 
