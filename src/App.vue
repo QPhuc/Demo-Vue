@@ -10,7 +10,8 @@
   <!-- <VModel /> -->
   <!-- <Computed /> -->
   <!-- <Watch /> -->
-  <ProvideInject />
+  <!-- <ProvideInject /> -->
+  <TemplateRefComposition />
 </template>
 
 <script lang="ts">
@@ -25,6 +26,7 @@ import VModel from './components/VModel.vue';
 import Computed from './components/Computed.vue';
 import Watch from './components/Watch.vue';
 import ProvideInject from './components/ProvideInject.vue';
+import TemplateRefComposition from './components/TemplateRefComposition.vue';
 
 // import ClickCounter from './components/ClickCounter.vue';
 // import HoverCounter from './components/HoverCounter.vue';
@@ -43,7 +45,8 @@ export default {
     // VModel
     // Computed
     // Watch
-    ProvideInject
+    // ProvideInject
+    TemplateRefComposition
 
   },
 }
